@@ -4,6 +4,9 @@ and then creating a csv file from it using Node Streams, this sample compares ho
 new and shiny async/await way to use node streams, please note that async iteration over streams is still at the tim of writing
 an experimental feature.
 
+### Requires
+Requires Node 10+ for stream async iteration
+
 #### Install
 ```
 pnpm install # or npm install
