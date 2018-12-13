@@ -11,6 +11,7 @@ switch (streamMode) {
   case 'async':
     request = https.get(`https://jsonplaceholder.typicode.com/comments`, async res => {
       let data = "";
+      // async stream iteration
       for await (const chunk of res) {
         data += chunk;
       }
@@ -28,7 +29,6 @@ switch (streamMode) {
       });
     break;
 }
-// async stream iteration
 request.on('error', err => {
   console.error(err);
   process.exit(1);
