@@ -1,0 +1,12 @@
+devDependencies:
+  '@types/node': 10.12.13
+packages:
+  /@types/node/10.12.13:
+    dev: true
+    resolution:
+      integrity: sha512-zMxYcuQETlp8Lw9trEuKa313Zapm9w3EXZ6pT53q229VsHvo9jWDfWq3rUC8SyFfnPexn7uAuC+q3X+GmnTnDg==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@types/node': ^10.12.13
